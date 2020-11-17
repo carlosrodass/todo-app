@@ -15,33 +15,59 @@ body{
 
 #contenedor{
     margin-top: 10px;
-   
-    width: 500px;   
+    width: 500px; 
+    background-color: white; 
+    border: 1px solid black; 
+    border-radius: 10px 10px 0px 0px;
+    height: auto;
+    overflow: hidden;
 }
 
 #cabecera{
     
     float: left;
     width: 100%;
-    height: 250px;
-    border-radius: 25px 25px 0px 0px;
     /* background-image: url(https://images.theconversation.com/files/232705/original/file-20180820-30593-1nxanpj.jpg?ixlib=rb-1.10&q=45&auto=format&w=496&fit=clip); */
     
 }
 
-
-#lista{
-    border: 1px solid green;
+#imagen{
     float: left;
     width: 100%;
+    
+}
+
+#fecha{
+    float: left;
+    width: 100%;
+    padding: 5px;
+}
+
+#fecha h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+
+#lista{
+
+    float: left;
+    width: 100%;
+    padding: 20px;
     background-color: white;
+}
+
+#lista p{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
 
 #anadir{
  
     float: left;
     width: 100%;
-    background-color: white;
+    
 }
 
 #izquierda{
@@ -52,6 +78,5 @@ body{
 #derecha{
     float: left;
     width: 20%;
-    background-color: bisque;
     border-radius: 50px 50px 50px 50px;
 }
