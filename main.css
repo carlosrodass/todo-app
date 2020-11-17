@@ -41,6 +41,7 @@ body{
     float: left;
     width: 100%;
     padding: 5px;
+    padding-left: 10px;
 }
 
 #fecha h3{
@@ -67,6 +68,7 @@ body{
  
     float: left;
     width: 100%;
+    padding: 10px;
     
 }
 
@@ -78,5 +80,5 @@ body{
 #derecha{
     float: left;
     width: 20%;
-    border-radius: 50px 50px 50px 50px;
+  
 }
