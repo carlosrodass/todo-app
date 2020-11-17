@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    padding: auto;
+    margin: 0px auto;
+}
+
+body{
+    background-color: #DEE2E8;
+}
+
+#clearfix{
+    clear: both;
+    overflow: auto;
+}
+
+#contenedor{
+    margin-top: 10px;
+   
+    width: 500px;   
+}
+
+#cabecera{
+    
+    float: left;
+    width: 100%;
+    height: 250px;
+    border-radius: 25px 25px 0px 0px;
+    /* background-image: url(https://images.theconversation.com/files/232705/original/file-20180820-30593-1nxanpj.jpg?ixlib=rb-1.10&q=45&auto=format&w=496&fit=clip); */
+    
+}
+
+
+#lista{
+    border: 1px solid green;
+    float: left;
+    width: 100%;
+    background-color: white;
+}
+
+#anadir{
+ 
+    float: left;
+    width: 100%;
+    background-color: white;
+}
+
+#izquierda{
+    float: left;
+    width: 80%;
+}
+
+#derecha{
+    float: left;
+    width: 20%;
+    background-color: bisque;
+    border-radius: 50px 50px 50px 50px;
+}
