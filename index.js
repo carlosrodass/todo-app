@@ -28,17 +28,24 @@ function LoadList(array){
          parrafote = document.createElement("p");
          textito = document.createTextNode(array[tarea]);
          parrafote.appendChild(textito);
-         document.querySelector("#lista").appendChild(parrafote);
+         var listaHTML = document.querySelector("#lista");
+         listaHTML.appendChild(parrafote);
+         //Propiedades css desde javascript
+         listaHTML.style.color = 'black';
+         listaHTML.style.fontStyle = 'bold';
+         listaHTML.style.fontFamily = 'monospace';
+         listaHTML.style.fontSize = '15px';
     }
 }
 
 function actualDate(){
-    var time = new Date().getTime();
-    var date = new Date(time);
+   
+    var today = new Date();
+    var dia = today.getDay();
+    var mes = today.getUTCMonth();
+    var dd = String(today.getDate()).padStart(2, '0');
+    var yyyy = today.getFullYear();
 
-    var dia = date.getDay();
-    var mes = date.getUTCMonth() ;
-    var ano = date.getFullYear();
 
     //Pasando dia de numero a letra
     var dayarray = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", 
@@ -104,10 +111,18 @@ function actualDate(){
             break;
     }
 
-    var fect = (day + " " + dia + " " + mes + " " + ano);
+    //Fecha actual
+    today = day + ', ' + dd + ' ' + mes + ' ' + yyyy;
+    
+    var fect = today;
 
-    document.querySelector("#fecha").innerHTML = fect;
-   
+    var fechahtml = document.querySelector("#fecha");
+    fechahtml.innerHTML = fect;
+    //Propiedades css desde javascript
+    fechahtml.style.color = 'black';
+    fechahtml.style.fontStyle = 'bold';
+    fechahtml.style.fontFamily = 'monospace';
+    fechahtml.style.fontSize = '25px';
 
 }
 

@@ -14,11 +14,11 @@ body{
 }
 
 #contenedor{
-    margin-top: 10px;
-    width: 500px; 
+    margin-top: 30px;
+    width: 500px;
     background-color: white; 
     border: 1px solid black; 
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 10px 10px 10px 10px;
     height: auto;
     overflow: hidden;
 }
@@ -33,15 +33,18 @@ body{
 
 #imagen{
     float: left;
-    width: 100%;
-    
+    width: 100%;  
+}
+#imagen img{
+    width: 100%;  
 }
 
 #fecha{
     float: left;
     width: 100%;
     padding: 5px;
-    padding-left: 10px;
+    padding-left: 15px;
+    background-color: rosybrown;
 }
 
 #fecha h3{
@@ -58,11 +61,6 @@ body{
     background-color: white;
 }
 
-#lista p{
-
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
-}
 
 #anadir{
  
