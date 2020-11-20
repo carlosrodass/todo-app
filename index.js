@@ -32,7 +32,7 @@ function LoadList(array){
          listaHTML.appendChild(parrafote);
          //Propiedades css desde javascript
          listaHTML.style.color = 'black';
-         listaHTML.style.fontStyle = 'bold';
+         listaHTML.style.fontWeight = 'bold';
          listaHTML.style.fontFamily = 'monospace';
          listaHTML.style.fontSize = '15px';
     }
