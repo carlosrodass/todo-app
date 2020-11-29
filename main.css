@@ -14,10 +14,10 @@ body{
 }
 
 #contenedor{
-    margin-top: 30px;
     width: 500px;
     background-color: white; 
-    border: 1px solid black; 
+    transform: translateY(80px);
+    border: 1px solid white; 
     border-radius: 10px 10px 10px 10px;
     height: auto;
     overflow: hidden;
@@ -39,12 +39,35 @@ body{
     width: 100%;  
 }
 
-#fecha{
-    float: left;
+#fecha_user{
+    display: block;
     width: 100%;
     padding: 5px;
     padding-left: 15px;
-    background-color: rosybrown;
+    background-color: #5EFFCC;
+    overflow: hidden;
+}
+
+#fecha{
+    float: left;
+    width: 60%;
+}
+
+#user{
+    float: left;
+    width: 40%;
+  
+}
+
+#user img{
+   width: 90px;
+   height: 90px;
+   border-radius: 50%;
+   border: 2px solid white;
+   position: absolute;
+   transform: translateX(80px) translateY(-38px);
+
+
 }
 
 #fecha h3{
@@ -66,17 +89,24 @@ body{
  
     float: left;
     width: 100%;
-    padding: 10px;
+    padding: 30px;
     
 }
 
 #izquierda{
     float: left;
-    width: 80%;
+    width: 75%;
+    padding: 5px;
+    margin-right: 5px;
 }
 
 #derecha{
     float: left;
     width: 20%;
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50; /* Green */
+    padding: 5px;
+    border-radius: 12px;
   
 }

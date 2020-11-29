@@ -122,7 +122,8 @@ function actualDate(){
     fechahtml.style.color = 'black';
     fechahtml.style.fontStyle = 'bold';
     fechahtml.style.fontFamily = 'monospace';
-    fechahtml.style.fontSize = '25px';
+    fechahtml.style.fontSize = '20px';
+    
 
 }
 
