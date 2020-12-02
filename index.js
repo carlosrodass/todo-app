@@ -30,6 +30,7 @@ function LoadList(array){
          parrafote.appendChild(textito);
          var listaHTML = document.querySelector("#lista");
          listaHTML.appendChild(parrafote);
+         
          //Propiedades css desde javascript
          listaHTML.style.color = 'black';
          listaHTML.style.fontWeight = 'bold';
@@ -122,7 +123,7 @@ function actualDate(){
     fechahtml.style.color = 'black';
     fechahtml.style.fontStyle = 'bold';
     fechahtml.style.fontFamily = 'monospace';
-    fechahtml.style.fontSize = '20px';
+    fechahtml.style.fontSize = '17px';
     
 
 }
